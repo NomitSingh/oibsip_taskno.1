@@ -100,12 +100,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px;
     margin-top: 150px;
-
     font-size: 50px;
     font-style: italic;
     font-weight: bold;
+}
+.back p{
+    margin: 50px;
 }
 .but{
     width: 100px;
@@ -307,8 +308,10 @@ hr{
     }
     .back{
         margin-top: 0px;
-        margin: 0px;
         color: rgb(240, 23, 23);
+    }
+    .back p{
+        margin: 0;
     }
     .bttn{
         margin-left:none ;
