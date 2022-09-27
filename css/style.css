@@ -100,7 +100,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 50px;
     margin-top: 150px;
+
     font-size: 50px;
     font-style: italic;
     font-weight: bold;
@@ -305,7 +307,7 @@ hr{
     }
     .back{
         margin-top: 0px;
-        
+        margin: 0px;
         color: rgb(240, 23, 23);
     }
     .bttn{
@@ -345,6 +347,7 @@ hr{
 {
     .back{
         font-size: 40px;
+        
     }
 }
 @media only screen and (max-width: 705px)
